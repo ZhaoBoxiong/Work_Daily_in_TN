@@ -1,0 +1,29 @@
+Spi_ConfigRoot
+
+Spi_kModuleConfig0
+
+      (uint32)((uint32)((uint32)SPI_SLAVE_SRIS_SEL << 4U) |
+               ((uint32)SPI_SLAVE_SCIS_SEL << 8U)),
+
+TC297:
+
+Qspi4 为slave
+
+P22.0 MOSI -- MTSR4B -- SPI_SLAVE_SRIS_SEL =1  SPI_SLAVE_SCIS_SEL = 1
+
+TC397中因为MOSI也是P22.0 因而SPI_SLAVE_SRIS_SEL =1  SPI_SLAVE_SCIS_SEL = 1
+
+PISEL
+
+
+Spi_lAsyncStartJob
+
+Spi_RuntimeKernelVar[HwModule]->BusStatus 
+
+Spi_IsrQspiError()
+
+配置async方式的qspi，需要记得，把qspi tx或者rx那一路的中断优先级配成DMA的通道号
+
+Spi_kJobConfig_Core0
+
+QSPI slave 配置Bacon寄存器用QSPI4_BACONENTRY，但是必须把QSPI4_DATAENTRY0写入全0才能生效
