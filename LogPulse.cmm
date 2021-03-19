@@ -1,0 +1,12 @@
+area.clear
+area.create my_pulse 
+area.view my_pulse
+area.open my_pulse D:\My_data\Testlog\Test_0.5kHz.log
+v.log Tu32g_PulseWidth[0] sts_ElmosChCalc[0].u32g_PulseWidth[0] sts_ElmosChCalc[0].u32g_PulseWidth[1] sts_ElmosChCalc[0].u32g_PulseWidth[2] sts_ElmosChCalc[0].u32g_PulseWidth[3] sts_ElmosChCalc[0].u32g_PulseWidth[4] /area my_pulse /ontime 0.2s /timestamp
+
+wait 100s
+
+area.close my_pulse
+v.log
+
+
