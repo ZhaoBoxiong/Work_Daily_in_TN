@@ -1,0 +1,8 @@
+Hex：
+
+"C:\Program Files (x86)\TASKING\TriCore v4.2r2\ctc\bin\ltc" -f _MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2/ifile.dat -M:XML -mcrfiklSmNOuQ -OTXYCL -v --core=mpe:vtc -D__CPU__=tc29x --munch --no-warnings=154 -dD:/My_Pro/IECU_A/1500-build/LB/../../1700-configout\os\SH00\ADAS.lsl -ID:/My_Pro/IECU_A/1500-build/LB/../../1700-configout\os\SH00 -M_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\image.map -o_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\image.hex:IHEX:4 -o_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\image.elf:ELF
+
+
+S19：
+
+"C:\Program Files (x86)\TASKING\TriCore v4.2r2\ctc\bin\ltc" -f _MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2/ifile.dat -M:XML -mcrfiklSmNOuQ -OTXYCL -v --core=mpe:vtc -D__CPU__=tc29x --munch --no-warnings=154 -dD:/My_Pro/IECU_A/1500-build/LB/../../1700-configout\os\SH00\ADAS.lsl -ID:/My_Pro/IECU_A/1500-build/LB/../../1700-configout\os\SH00 -M_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\image.map -o_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\MyTest.s19:SREC:4 -o_MotionWise\System\SH00\Var_D\image\TaskingTricore_4_2_r2\MyTest.elf:ELF
