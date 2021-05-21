@@ -1,0 +1,4 @@
+C:\MC-ISAR_AS422_TC3xx_BASIC_1.40.0\McIsar\PluginsTresos\eclipse\plugins
+
+-->C:\EB\tresos\plugins
+
